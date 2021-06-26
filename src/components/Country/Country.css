@@ -1,0 +1,29 @@
+.singleCountry {
+    background-color: #fff;
+    width: 16rem;
+    height: 24rem;
+    margin: 1.5rem;
+    border-radius: .6rem;
+    filter: drop-shadow(2px 4px 4px white);
+}
+.country-flag img {
+    max-width: 100%;
+    border-radius: .6rem .6rem 0rem 0rem;
+}
+.country-details {
+    padding: 1rem;
+}
+.country-details button {
+    align-self: center;
+}
+
+button {
+    padding: .6rem 1.8rem;
+    margin-top: 10px;
+    margin-left: 20%;
+    background-color: rgb(31, 6, 6);
+    color: white;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+}
