@@ -1,8 +1,9 @@
 import React from 'react';
 import './Country.css';
+import {Link } from "react-router-dom";
 
 const Country = (props) => {
-    const {name, flag, population, capital, nativeName} = props.country;
+    const {name, flag, population, capital, nativeName } = props.country;
     //console.log(props)
     return (
         <div className="singleCountry">
@@ -15,6 +16,9 @@ const Country = (props) => {
                 <p>Native Name: {nativeName}</p>
                 <p>Population: {population}</p>
                 <button onClick={() => props.handleAddCountry(props.country)}>Add Country</button>
+                <Link to={"/country/"+name}><button> More About </button></Link>
+                
+                
             </div>
             
         </div>

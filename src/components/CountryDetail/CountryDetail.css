@@ -1,0 +1,21 @@
+.cDetail {
+    height: 100vh;
+    padding: 2rem;
+}
+
+.details {
+    background-color: #fff;
+    width: 20rem;
+    height: 32rem;
+    border-radius: .6rem;
+    filter: drop-shadow(2px 4px 4px white);
+    margin: 0 auto;
+}
+.details img {
+    max-width: 100%;
+    max-height: 220px;
+} 
+.fDetail {
+    padding: 1rem;
+    color: black;
+}

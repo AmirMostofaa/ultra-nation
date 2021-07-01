@@ -18,11 +18,12 @@ const Nation = () => {
         //console.log('Country Added!')
         const newCart = [...cart, country];
         setCart(newCart)
+
     }
 
     const total = cart.reduce((total, country) => total + country.population, 0)
 
-
+    
     return (
         <div className="nation">
             
