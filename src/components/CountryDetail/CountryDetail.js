@@ -20,7 +20,7 @@ const CountryDetail = () => {
             console.log(newCountry)
         })
 
-    }, []);
+    }, [cName]);
 
     
     //console.log(country[0].name);
